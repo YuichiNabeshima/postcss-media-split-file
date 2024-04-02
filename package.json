@@ -1,0 +1,33 @@
+{
+  "name": "postcss-media-split-file",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that split file by custom media.",
+  "keywords": ["postcss", "css", "postcss-plugin", "postcss-media-split-file"],
+  "scripts": {
+    "unit": "node --test index.test.js",
+    "test": "npm run unit && eslint ."
+  },
+  "author": "YuichiNabeshima <denmukuru1208@gmail.com>",
+  "license": "MIT",
+  "repository": "YuichiNabeshima/postcss-media-split-file",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.27"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "postcss": "^8.4.27"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": ["eslint:recommended"]
+  }
+}
