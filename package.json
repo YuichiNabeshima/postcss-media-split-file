@@ -4,7 +4,7 @@
   "description": "PostCSS plugin that split file by custom media.",
   "keywords": ["postcss", "css", "postcss-plugin", "postcss-media-split-file"],
   "scripts": {
-    "unit": "node --test index.test.js",
+    "unit": "node --test test/index.test.js",
     "test": "npm run unit && eslint ."
   },
   "author": "YuichiNabeshima <denmukuru1208@gmail.com>",
